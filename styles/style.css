@@ -48,6 +48,13 @@ body {
 .input_container p {
   text-align: center;
 }
+.input {
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  background-color: lightgrey;
+}
+
 .input_val input {
   width: 100px;
   min-width: 100px;
@@ -56,6 +63,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   border: none;
+  background-color: lightgrey;
 }
 .curOption {
   font-size: 16px;
@@ -67,6 +75,17 @@ body {
   font-size: 14px;
   font-weight: 900;
 }
+.to {
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.to p {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
 .output {
   margin-left: 10%;
   display: flex;
@@ -76,4 +95,10 @@ body {
 }
 #output {
   width: 180px;
+}
+.line {
+  width: 90%;
+  margin: 0 auto;
+  height: 3px;
+  background-color: grey;
 }
